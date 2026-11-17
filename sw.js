@@ -1,5 +1,5 @@
 // 改了網頁內容要上傳新版時，把版本號 +1，手機才會更新
-const CACHE = "tokyo-trip-v1";
+const CACHE = "tokyo-trip-v2";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
